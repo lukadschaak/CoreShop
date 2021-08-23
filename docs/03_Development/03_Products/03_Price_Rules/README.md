@@ -5,17 +5,26 @@ Price Rules always consist of Conditions and Actions.
 
 ## Price Rule Types
 
-### Catalog Price Rules
+### Product Price Rules
 
-> Checkout all available catalog price rules [here](../../../02_User_Documentation/03_Price_Rules/02_Product_Price_Rules.md)
+> Checkout all available product price rules [here](../../../02_User_Documentation/03_Price_Rules/02_Product_Price_Rules.md)
 
-Catalog Price Rules are applied to multiple Products based on Conditions like Category or Manufacturer.
+Product Price Rules are applied to multiple products based on Conditions like Category or Manufacturer.
 
 ### Specific Price Rules
 
 > Checkout all available specific price rules [here](../../../02_User_Documentation/03_Price_Rules/03_Specific_Product_Prices.md)
 
-Specific Price Rules are applied to a single Product based on Conditions like Customer or Customer Group.
+Specific Price Rules are applied to a single product based on Conditions like Customer or Customer Group.
+
+### Quantity Price Rules
+
+> Checkout all available quantity price rules [here](../../../02_User_Documentation/03_Price_Rules/04_Quantity_Product_Prices.md)
+
+Quantity Price Rules are applied to a single Product based on Conditions like the amount of items in cart.
+
+These rules apply only in the calculation of cart item prices. If you have only quantity rules configured,
+the default price calculation of CoreShop will return zero outside of cart context.
 
 ## Extending Conditions and Actions
 
